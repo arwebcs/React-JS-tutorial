@@ -6,6 +6,24 @@
   height: 40vmin;
   pointer-events: none;
 }
+.navbar {
+  text-align: right;
+  font-weight: bold;
+}
+.navbarlink {
+  color: black;
+  text-decoration: none;
+}
+.navbarlink:hover {
+  color: green;
+}
+.navbar li {
+  display: inline-block;
+  padding: 10px 5px;
+}
+.active {
+  color: red;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
