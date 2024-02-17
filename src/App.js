@@ -9,7 +9,7 @@ function App() {
     fetch("url", {
       method: "GET",
       headers: {
-        Authorization: `Bearer tttt}`,
+        Authorization: `Bearer tttt`,
       },
       //   body: {},
     }).then((res) => {
